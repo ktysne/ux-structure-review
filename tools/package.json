@@ -1,0 +1,6 @@
+{
+  "name": "ux-structure-review-tools",
+  "private": true,
+  "description": "tools/*.js は CommonJS (require) で書かれているため、ルート package.json の設定に依存しないよう type:\"commonjs\" を明示する。",
+  "type": "commonjs"
+}
